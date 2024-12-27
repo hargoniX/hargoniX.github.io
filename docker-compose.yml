@@ -1,0 +1,9 @@
+services:
+  blog:
+    image: blog
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      target: blog_server
+    ports:
+      - "127.0.0.1:12345:80"
