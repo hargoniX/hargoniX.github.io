@@ -1,0 +1,36 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/juliamono/0.051/juliamono.css');
+
+// Colors
+//
+$theme: #018574;
+$text: #c6cddb;
+$light-grey: #494f5c;
+$dark-grey: #3b3e48;
+$highlight-grey: #7d828a;
+$midnightblue: #31333d;
+
+
+// Fonts
+//
+$fonts: "Lato Medium", sans-serif;
+$code-fonts: "JuliaMono", monospace;
+
+// Mixins
+//
+@mixin dimmed {
+  opacity: 0.6;
+}
+
+@mixin aTag {
+  a {
+    word-break: break-all;
+    border: none;
+    box-shadow: inset 0 -4px 0 $theme;
+    transition-property: background-color;
+
+    &:hover {
+      background-color: $theme;
+    }
+  }
+}

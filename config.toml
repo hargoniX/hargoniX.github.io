@@ -1,0 +1,31 @@
+# The URL the site will be built for
+base_url = "https://hboeving.dev"
+title = "hboeving.dev"
+compile_sass = true
+build_search_index = false
+
+[markdown]
+highlight_code = true
+highlight_theme = "gruvbox-light"
+
+[extra]
+# Put all your custom variables here
+
+home_subtitle = "Some profound and catchy statement"
+
+hermit_social = [
+    { name = "github", link = "https://github.com/hargoniX" },
+    { name = "email", link = "mailto:hargoniX@gmail.com" },
+    { name = "mastodon", link = "https://functional.cafe/@hargonix" },
+]
+
+hermit_menu = [
+    { link = "/blog", name = "Blog" },
+    { link = "/about", name = "About" }
+]
+
+footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[extra.author]
+name = "Henrik Böving"
+email = "hargoniX@gmail.com"
